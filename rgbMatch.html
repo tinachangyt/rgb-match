@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RGB Match</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<header>
+		<h1>RGB Matching Game</h1>
+		<h2 id="colourDisplay">RGB</h2>
+	</header>
+	<div class="wrapper">
+		<section class="gameSetting">
+			<button id="reset">New Colours</button>
+			<span id="message"></span>
+			<div class="difficulty">
+				<button class="mode">Easy</button>
+				<button class="mode selected">Hard</button>
+			</div>
+		</section>
+		<div id="container">
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+		</div>
+	</div>
+
+
+	<script src="rgbMatch.js"></script>
+</body>
+</html>
